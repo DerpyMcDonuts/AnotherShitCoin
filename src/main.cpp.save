@@ -67,7 +67,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Ultracoin Signed Message:\n";
+const string strMessageMagic = "AnotherShitCoin Signed Message:\n";
 
 double dHashesPerSec;
 int64 nHPSTimerStart;
@@ -959,7 +959,7 @@ int static generateMTRandom(unsigned int s, int range)
 }
 
 
-// Ultracoin: increasing Nfactor gradually
+// AnotherShitCoin: increasing Nfactor gradually
 const unsigned char minNfactor = 4;
 const unsigned char maxNfactor = 30;
 
@@ -2432,7 +2432,7 @@ bool CheckDiskSpace(uint64 nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "Ultracoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "AnotherShitCoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2525,7 +2525,7 @@ bool LoadBlockIndex(bool fAllowNew)
   //vMerkleTree: 05b4eb8ba8 
 
         // Genesis block
-        const char* pszTimestamp = "Ultracoin to the Moon";
+        const char* pszTimestamp = "AnotherShitCoin to the sewer";
         CTransaction txNew;
         txNew.nTime = nChainStartTime;
         txNew.vin.resize(1);

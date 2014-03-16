@@ -25,6 +25,13 @@ class CInv;
 class CRequestTracker;
 class CNode;
 
+// saironiq: block height where "no consecutive PoS blocks" rule activates
+
+// set this to 164 (almost immediately) for ultracoin
+
+//static const int nConsecutiveStakeSwitchHeight = 164;
+//chain reset, set to 2
+static const int nConsecutiveStakeSwitchHeight = 2;
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
@@ -32,8 +39,8 @@ static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
 static const int64 MIN_TX_FEE = .001 * CENT;
 static const int64 MIN_RELAY_TX_FEE = .001 * CENT;
-static const int64 MAX_MONEY = 100000000000 * COIN;
-static const int64 MAX_MINT_PROOF_OF_WORK = .0064 * COIN;
+static const int64 MAX_MONEY = 100000000 * COIN;
+static const int64 MAX_MINT_PROOF_OF_WORK = 50 * COIN;
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
@@ -46,10 +53,10 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlockOfficial("0x");
-static const uint256 hashGenesisBlockTestNet("0x000002843c7e1ba82ecbda3f80131d58f8727d09d3078cd5a579b64e64f60889");
+static const uint256 hashGenesisBlockOfficial("0x00000957baeb013a79e5d1fa0b8f69ab2e926ea86d392f6a1733eb4054945aee");
+static const uint256 hashGenesisBlockTestNet("0x00000957baeb013a79e5d1fa0b8f69ab2e926ea86d392f6a1733eb4054945aee");
 
-static const int64 nMaxClockDrift = 2 * 60 * 60;        // two hours
+static const int64 nMaxClockDrift = 2 * 60 * 60;        // 2hours
 
 extern CScript COINBASE_FLAGS;
 
@@ -66,6 +73,7 @@ extern CBlockIndex* pindexGenesisBlock;
 extern unsigned int nStakeMinAge;
 extern int nCoinbaseMaturity;
 extern int nBestHeight;
+extern int64 nBestHeightTime;
 extern CBigNum bnBestChainTrust;
 extern CBigNum bnBestInvalidTrust;
 extern uint256 hashBestChain;
@@ -590,7 +598,7 @@ public:
     {
         // Large (in bytes) low-priority (new, small-coin) transactions
         // need a fee.
-        return dPriority > COIN * 144 / 250;
+        return dPriority > COIN * 2880 / 250;
     }
 
     int64 GetMinFee(unsigned int nBlockSize=1, bool fAllowFree=false, enum GetMinFee_mode mode=GMF_BLOCK) const;
@@ -1246,15 +1254,15 @@ public:
         return (int64)nTime;
     }
 
-    CBigNum GetBlockTrust() const
+    /*CBigNum GetBlockTrust() const
     {
         CBigNum bnTarget;
         bnTarget.SetCompact(nBits);
         if (bnTarget <= 0)
             return 0;
         return (IsProofOfStake()? (CBigNum(1)<<256) / (bnTarget+1) : 1);
-    }
-
+    }*/
+    CBigNum GetBlockTrust() const;
     bool IsInMainChain() const
     {
         return (pnext || this == pindexBest);

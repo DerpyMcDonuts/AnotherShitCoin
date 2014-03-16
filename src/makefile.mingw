@@ -85,10 +85,10 @@ OBJS= \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o
 
-all: Ultracoind.exe
+all: AnotherShitCoind.exe
 
-test check: test_Ultracoin.exe FORCE
-	test_Ultracoin.exe
+test check: test_AnotherShitCoin.exe FORCE
+	test_AnotherShitCoin.exe
 
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
@@ -99,7 +99,7 @@ obj/scrypt-x86.o: scrypt-x86.S
 obj/scrypt-x86_64.o: scrypt-x86_64.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
 
-Ultracoind.exe: $(OBJS:obj/%=obj/%)
+AnotherShitCoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -111,7 +111,7 @@ test_bitcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework $(LIBS)
 
 clean:
-	-del /Q Ultracoind test_Ultracoin
+	-del /Q AnotherShitCoind test_AnotherShitCoin
 	-del /Q obj\*
 	-del /Q obj-test\*
 

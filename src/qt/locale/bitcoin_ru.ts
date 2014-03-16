@@ -6,18 +6,18 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Ultracoin</source>
-        <translation>О Ultracoin</translation>
+        <source>About AnotherShitCoin</source>
+        <translation>О AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Ultracoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Ultracoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;AnotherShitCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;AnotherShitCoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2012 The Ultracoin developers</source>
-        <translation>Все права защищены © 2009-2012 Разработчики Ultracoin</translation>
+        <source>Copyright © 2009-2012 The AnotherShitCoin developers</source>
+        <translation>Все права защищены © 2009-2012 Разработчики AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -64,7 +64,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Ultracoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your AnotherShitCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -79,8 +79,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Ultracoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Ultracoin</translation>
+        <source>Sign a message to prove you own a AnotherShitCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Ultracoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Ultracoin</translation>
+        <source>Verify a message to ensure it was signed with a specified AnotherShitCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -252,7 +252,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Ultracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>AnotherShitCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -366,8 +366,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Ultracoin</source>
-        <translation>Показать информацию о Ultracoin&apos;е</translation>
+        <source>Show information about AnotherShitCoin</source>
+        <translation>Показать информацию о AnotherShitCoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Send coins to a Ultracoin address</source>
-        <translation>Отправить монеты на указанный адрес Ultracoin</translation>
+        <source>Send coins to a AnotherShitCoin address</source>
+        <translation>Отправить монеты на указанный адрес AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for Ultracoin</source>
-        <translation>Изменить параметры конфигурации Ultracoin</translation>
+        <source>Modify configuration options for AnotherShitCoin</source>
+        <translation>Изменить параметры конфигурации AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -465,8 +465,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-186"/>
-        <source>Ultracoin</source>
-        <translation>Ultracoin</translation>
+        <source>AnotherShitCoin</source>
+        <translation>AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+168"/>
-        <source>&amp;About Ultracoin</source>
-        <translation>&amp;О Ultracoin</translation>
+        <source>&amp;About AnotherShitCoin</source>
+        <translation>&amp;О AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -517,12 +517,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Ultracoin client</source>
-        <translation>Ultracoin клиент</translation>
+        <source>AnotherShitCoin client</source>
+        <translation>AnotherShitCoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+69"/>
-        <source>%n active connection(s) to Ultracoin network</source>
+        <source>%n active connection(s) to AnotherShitCoin network</source>
         <translation>
             <numerusform>%n активное соединение с сетью</numerusform>
             <numerusform>%n активных соединений с сетью</numerusform>
@@ -627,8 +627,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Ultracoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Ultracoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AnotherShitCoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом AnotherShitCoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Ultracoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Ultracoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. AnotherShitCoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. AnotherShitCoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Ultracoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Ultracoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AnotherShitCoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным AnotherShitCoin-адресом.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+419"/>
         <location line="+12"/>
-        <source>Ultracoin-Qt</source>
-        <translation>Ultracoin-Qt</translation>
+        <source>AnotherShitCoin-Qt</source>
+        <translation>AnotherShitCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Ultracoin after logging in to the system.</source>
-        <translation>Автоматически запускать Ultracoin после входа в систему</translation>
+        <source>Automatically start AnotherShitCoin after logging in to the system.</source>
+        <translation>Автоматически запускать AnotherShitCoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Ultracoin on system login</source>
-        <translation>&amp;Запускать Ultracoin при входе в систему</translation>
+        <source>&amp;Start AnotherShitCoin on system login</source>
+        <translation>&amp;Запускать AnotherShitCoin при входе в систему</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Ultracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Ultracoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the AnotherShitCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для AnotherShitCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Ultracoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Ultracoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the AnotherShitCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети AnotherShitCoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Ultracoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Ultracoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AnotherShitCoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска AnotherShitCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Ultracoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Ultracoin в списке транзакций.</translation>
+        <source>Whether to show AnotherShitCoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса AnotherShitCoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -972,8 +972,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Ultracoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Ultracoin</translation>
+        <source>This setting will take effect after restarting AnotherShitCoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -991,8 +991,8 @@ Address: %4
     <message>
         <location line="+33"/>
         <location line="+183"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ultracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Ultracoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AnotherShitCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью AnotherShitCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-141"/>
@@ -1207,8 +1207,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Ultracoin-Qt help message to get a list with possible Ultracoin command-line options.</source>
-        <translation>Показать помощь по Ultracoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the AnotherShitCoin-Qt help message to get a list with possible AnotherShitCoin command-line options.</source>
+        <translation>Показать помощь по AnotherShitCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1227,13 +1227,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Ultracoin - Debug window</source>
-        <translation>Ultracoin - Окно отладки</translation>
+        <source>AnotherShitCoin - Debug window</source>
+        <translation>AnotherShitCoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Ultracoin Core</source>
-        <translation>Ядро Ultracoin</translation>
+        <source>AnotherShitCoin Core</source>
+        <translation>Ядро AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1242,8 +1242,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Ultracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Ultracoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the AnotherShitCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл AnotherShitCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1252,8 +1252,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Ultracoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Ultracoin.</translation>
+        <source>Welcome to the AnotherShitCoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль AnotherShitCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1436,8 +1436,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Ultracoin address (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</source>
-        <translation>Введите Ultracoin-адрес (например Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</translation>
+        <source>Enter a AnotherShitCoin address (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</source>
+        <translation>Введите AnotherShitCoin-адрес (например Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</translation>
     </message>
 </context>
 <context>
@@ -1497,8 +1497,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Ultracoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Ultracoin</translation>
+        <source>Sign the message to prove you own this AnotherShitCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1529,8 +1529,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Ultracoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Ultracoin</translation>
+        <source>Verify the message to ensure it was signed with the specified AnotherShitCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1540,8 +1540,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Ultracoin address (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</source>
-        <translation>Введите адрес Ultracoin (напр. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</translation>
+        <source>Enter a AnotherShitCoin address (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</source>
+        <translation>Введите адрес AnotherShitCoin (напр. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1550,8 +1550,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Ultracoin signature</source>
-        <translation>Введите подпись Ultracoin</translation>
+        <source>Enter AnotherShitCoin signature</source>
+        <translation>Введите подпись AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2126,7 +2126,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+82"/>
-        <source>Ultracoin version</source>
+        <source>AnotherShitCoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2157,13 +2157,13 @@ Address: %4
     </message>
     <message>
         <location line="+23"/>
-        <source>Specify configuration file (default: Ultracoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: Ultracoin.conf)</translation>
+        <source>Specify configuration file (default: AnotherShitCoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: AnotherShitCoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: Ultracoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: Ultracoin.pid)</translation>
+        <source>Specify pid file (default: AnotherShitCoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: AnotherShitCoin.pid)</translation>
     </message>
     <message>
         <location line="-47"/>
@@ -2322,8 +2322,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Ultracoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Ultracoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AnotherShitCoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, AnotherShitCoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -2553,13 +2553,13 @@ Address: %4
     </message>
     <message>
         <location line="-131"/>
-        <source>Cannot obtain a lock on data directory %s.  Ultracoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  AnotherShitCoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>
         <location line="+57"/>
-        <source>Ultracoin</source>
-        <translation>Ultracoin</translation>
+        <source>AnotherShitCoin</source>
+        <translation>AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -2593,13 +2593,13 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Ultracoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Ultracoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AnotherShitCoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию AnotherShitCoin</translation>
     </message>
     <message>
         <location line="+73"/>
-        <source>Wallet needed to be rewritten: restart Ultracoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Ultracoin для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart AnotherShitCoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите AnotherShitCoin для завершения операции.</translation>
     </message>
     <message>
         <location line="-75"/>
@@ -2668,8 +2668,8 @@ Address: %4
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Ultracoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Ultracoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. AnotherShitCoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, AnotherShitCoin уже работает.</translation>
     </message>
     <message>
         <location line="+55"/>

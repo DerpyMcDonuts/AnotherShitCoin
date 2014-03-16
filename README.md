@@ -1,9 +1,9 @@
-Ultracoin
-==============
+AnotherShitCoin
+===============
 
-Ultracoin is a new cryptocurrency.
+AnotherShitCoin is another shitty cryptocurrency.
 
-It will generate a total of 100,000,000 coins.
+It will generate a total of 100,000,000 coins. Maybe.
 
 
 

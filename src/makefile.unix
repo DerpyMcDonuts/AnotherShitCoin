@@ -143,10 +143,10 @@ OBJS= \
     obj/scrypt-jane.o
 
 
-all: Ultracoind
+all: AnotherShitCoind
 
-test check: test_Ultracoin FORCE
-	./test_Ultracoin
+test check: test_AnotherShitCoin FORCE
+	./test_AnotherShitCoin
 
 # auto-generated dependencies:
 -include obj/*.P
@@ -173,7 +173,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-Ultracoind: $(OBJS:obj/%=obj/%)
+AnotherShitCoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -185,11 +185,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_Ultracoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_AnotherShitCoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ -Wl,-B$(LMODE) -lboost_unit_test_framework $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f Ultracoind test_Ultracoin
+	-rm -f AnotherShitCoind test_AnotherShitCoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P
