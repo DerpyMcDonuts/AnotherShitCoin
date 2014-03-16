@@ -2638,7 +2638,7 @@ if (block.nNonce == 0)
         printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
         printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
         printf("block.nNonce = %u \n", block.nNonce);
-        assert(block.hashMerkleRoot == uint256("0xe03a8234e63db94e44fbf9078c3f0450667c9f25407827fbf751ad75804fb7dc"));
+        assert(block.hashMerkleRoot == uint256("0x0e4f2fe1b5daf7f5c3cca6d8a8406a71610a8ed2dd5ef0ce33866d756dc7b232"));
 block.print();
 if (true && block.GetHash() != hashGenesisBlock)
         {
@@ -2701,8 +2701,8 @@ if (true && block.GetHash() != hashGenesisBlock)
 
                 }
 */
-assert(block.GetHash() == hashGenesisBlock);
-//assert(block.GetHash() == uint256("0x00000f59c12a91c5af9a80274cb01fd5ec644732c5ef6d2841f348c9e806276"));
+//assert(block.GetHash() == hashGenesisBlock);
+assert(block.GetHash() == uint256("0xe76f794044c03038a7ce612ee16314175f947562fc0f7a88a6ce39f4b5de0e7d"));
 //      assert(block.CheckBlock());
 
         // Start new block file
